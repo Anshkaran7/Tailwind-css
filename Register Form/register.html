@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+</head>
+<body>
+    <div class="min-h-screen py-32" style="background-image: linear-gradient(115deg,#f0b0a0, #FEE2FE);">
+        <div class="mx-auto">
+            <div class="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
+                <div class="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center" style="background-image: url('Register-Background.png');">
+                    <h1 class="text-white text-3xl mb-3">Welcome</h1>
+                    <div>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eius dolor deleniti delectus, commodi sapiente reiciendis officia omnis enim magnam necessitatibus, tempore dicta esse, perspiciatis incidunt sint porro maxime alias?</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 py-16 px-12">
+                    <h2 class="text-3xl mb-4 up underline text-center">Register</h2>
+                    <p class="mb-4">Create your account. It's free and only take a minute</p>
+                    <form action="#">
+                        <div class="grid grid-cols-2 gap-5">
+                            <input type="text" placeholder="FirstName" class="border border-gray-400 py-1 px-2">
+                            <input type="text" placeholder="SurName" class="border border-gray-400 py-1 px-2">
+                        </div>
+                        <div class="mt-5">
+                            <input type="email" placeholder="Email" class="border border-gray-400 py-1 px-2 w-full">
+                        </div>
+                        <div class="mt-5">
+                            <input type="password" placeholder="Password" class="border border-gray-400 py-1 px-2 w-full">
+                        </div>
+                        <div class="mt-5">
+                            <input type="password" placeholder="Confirm Password" class="border border-gray-400 py-1 px-2 w-full">
+                        </div>
+                        <div class="mt-5">
+                            <input type="checkbox" class="border border-gray-400">
+                            <span>I accept the <a href="#" class="text-pink-400 font-semibold hover:text-pink-600">Terms of Use</a> & <a href="#" class="text-pink-400 font-semibold hover:text-pink-600">Privacy Policy</a> </span>
+                        </div>
+                        <div class="mt-5">
+                            <button class="w-full bg-pink-400 py-3 text-center text-white hover:bg-pink-500"> Register Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

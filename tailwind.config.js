@@ -2,7 +2,9 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    fontFamily: {
+      display:["gstatic"],
+    },
   },
   plugins: [],
 }
